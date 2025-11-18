@@ -120,8 +120,6 @@ nav {
 
 /* About Section */
 .about-section {
-  background: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80")
-    no-repeat center/cover;
   padding: 120px 20px;
   color: white;
   text-align: center;

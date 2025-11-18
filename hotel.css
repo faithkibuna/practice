@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 /* Navbar */
 nav {
   background: #d4a017;
@@ -19,7 +18,10 @@ nav {
   top: 0;
   z-index: 1000;
 }
-
+.hero-content {
+  display: flex;
+  background-color: red;
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -41,28 +43,36 @@ nav {
 
 /* Home Section */
 .home {
-  background: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80")
-    no-repeat center/cover;
+  background: url(images/fast-food-6974507_1280.jpg) no-repeat center/cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+.oder {
+  background-color: brown;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  border-radius: 10px;
+  border: solid bisque 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 50px;
   color: white;
   border-radius: 15px;
 }
 
-.overlay h2 {
+.overlay h1 {
   font-size: 48px;
   margin-bottom: 10px;
 }
-.menu-grid {
-}
+
 /* Menu Section */
 .menu-section {
   padding: 100px 50px;
